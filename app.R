@@ -1,10 +1,7 @@
 # R-Ladies Montreal
 # Intro to Shiny tutorial
 
-library(shiny)
-library(readr)
-library(ggplot2)
-library(tidyr)
+pacman::p_load(shiny, readr, ggplot2, tidyr, dplyr)
 
 # Read dataset for recent graduates
 recent_grads <- read_csv("recent-grads.csv")
